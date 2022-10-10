@@ -1,0 +1,157 @@
+/* order page  */
+*{
+    box-sizing:border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+body, form, input, option, select, textarea , h1, p h3,h2,label{
+    font-family: "Poppins",sans-serif;
+}
+
+.main {
+    margin-top: 0px;
+    display: flex;
+    margin-left: 8vw;
+ }
+
+#orders {
+    margin-left: 2.3vw;
+    
+}
+
+.orders {
+    margin-top: 16vh;
+    margin-left: 4vw;
+    box-sizing: border-box;
+    margin-bottom:2vh;
+    font-family: 'Roboto', sans-serif;
+    color: #393838;
+
+} 
+.orders h1{
+    font-weight: bold;
+    font-size:2rem;
+    font-weight:700;
+    margin-left: 4.8vw;
+}
+
+.div-count{
+    color: #393838;
+    margin-left: 1vw;
+
+}
+.filter h3{
+    font-family: 'Roboto', sans-serif;
+    color: #393838;
+    margin:1.5vh 1vw;
+    padding: 10px 0px;
+    font-size: 20px;
+}
+.checkbox-div{
+    height: 150px;
+    width: 180px;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    color: #393838;
+   
+}
+.checkbox{
+    padding:10px 10px;
+    border: 2px solid black;
+}
+input{
+    margin: 5px 5px;
+}
+label{
+    padding:10px 5px;
+}
+
+/* table of order page  */
+#table-headers {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.table-data {
+    margin-top: 3vh;
+    width: 90%;
+    margin-bottom:10vh;
+}
+
+.data-row{
+    width:90vw;
+ }
+tbody tr {
+    background-color: #fff;
+    border-bottom: 6px solid #f6f7fb;
+}
+.table-heading {
+    padding: 10px 10px;
+}
+
+#table-data tr {
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+    width: 88%;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+th{
+    font-weight: bold;
+    text-align: left;
+    background-color: #f6f7fb;
+    padding-left:20px !important;
+    color:black !important;
+}
+td {
+    background-color: #fff;
+    color:black;
+    padding-left:20px;
+    border-collapse: collapse;
+    font-size: 14px;
+    padding-top: 16px;
+    text-align: left;
+    padding-bottom: 16px;
+}
+
+.column1 {
+    width: 170px;
+    color: #808080;
+}
+
+
+.column2 {
+    width: 210px;
+    color: #222;
+    font-weight: 500;
+}
+
+.column3 {
+    width: 150px;
+    color: #808080;
+}
+
+.column4 {
+    width: 110px;
+    color: #808080;
+}
+
+.column5 {
+    width: 100px;
+}
+
+.orderstatus {
+    color:black;
+    width: 140px;
+}
+
+
+
+

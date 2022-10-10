@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+    color: #393838;
+    }
+    body {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        background-color:  #f6f7fb;
+    }
+    
+body,
+form,
+input,
+option,
+select,
+textarea, li, a, div, label,span {
+    font-family: "Poppins", sans-serif;
+}
+/* Navbar css */
+#users-tab, #products-tab, #orders-tab{
+    color: #20b883;
+    border-bottom: 3px solid #20b883;
+}
+
+
+li{
+    font-size:16px;
+    list-style:none;
+}
+
+#logout-show{
+    position:absolute;
+    left:91.3vw;
+    padding: 12px 10px;
+
+}
+#logout {
+    display: none;
+
+}
+
+.menu-logo {
+    margin-right: 36px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 25px;
+    font-weight: 500;
+    font-size: 24px;
+    color: #111;
+
+}
+.nav{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    list-style: none;
+    justify-items: center;
+    font-family: "Poppins",sans-serif !important;
+
+}
+.nav a{
+    font-family: "Poppins",sans-serif !important;
+    justify-content:center;
+    letter-spacing: .6px;
+    font-weight: 500;
+    margin: 0 10px;
+    color: rgba(0,0,0,.8);
+    font-size:14px;
+    padding: 22px 2px;
+    font-weight: 500;
+
+}
+.menu{
+
+    padding:20px 2px;
+}
+
+header {
+    height: 64px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding:0px 48px;
+    background-color: #fff;
+    width: 100%;
+    box-shadow: 0 2px 4px #ccc;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.menu img {
+    margin: auto .3vw auto .4vw;
+    background-size: 60%;
+    width: 50%;
+    height: 80%;
+
+}
+
+#kafene li {
+    padding: 0px 15px;
+    font-size: 24px;
+    letter-spacing: -1px;
+    font-weight: 500;
+    margin: 0;
+    color: rgba(0,0,0,.8);
+    font-family: 'poppins', 'sans-serif'!important;
+    padding-top:15px;
+    justify-content: center;
+}
+
+#kafene {
+    display: flex;
+    font-weight: 500;
+    align-items: center;
+    font-size: 1.6rem;
+    margin-left: 0vw;
+    margin-right: 36px;
+    justify-content: center;
+    font-family: "Poppins",sans-serif;  
+}
+
+
+ul { 
+    display: flex;
+    padding: 15px 3px;
+    justify-content:center;
+}
+
+.menu {
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+/* login page styling */
+.signin {
+    margin-top: 10%;
+    height: 268px;
+    width: 460px;
+    background-color: white;
+    color: black;
+    padding: 2rem;
+    box-shadow: 0px 0px 5px 1.5px #ccc;
+    border-radius: 10px;
+    margin-left: 32%;
+    padding: 30px 30px;
+
+}
+
+.signin h1 {
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin: 0 0 24px;
+}
+
+.signin input {
+    width: 100%;
+    padding-top: 16px;
+    font-size: 14px;
+    box-sizing: border-box;
+    border: 0;
+    border-bottom: 2px solid #8c8c8c;
+    margin-bottom: 16px;
+    outline: none;
+}
+
+.login {
+    color: white;
+    width: 100%;
+    display: inline-block;
+    border-radius: 30px;
+    padding: 14px 36px;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    background-color: #20b883;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top:4px;
+    margin-bottom: 24px;
+}
+@media only screen and (max-width:480px){
+    .signin{
+        width:90%;
+        margin:100px auto;
+    }
+    }
+    
+    @media only screen and (min-width:480px) and (max-width:781px){
+        .signin{
+                  margin:100px auto;
+        }
+    }
+
+/* order page */
+
+
+/* table of order page */
+/* th{
+    padding-left:0px;
+    background-color: #f6f7fb;
+}
+
+#table-headers {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    overflow: hidden;
+}
+
+
+.table-heading-1{
+    color:#111;
+
+    font-weight:600;
+}
+.table-heading {
+    padding: 10px 10px;
+}
+
+
+#table-data tr {
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 10px;
+} */
